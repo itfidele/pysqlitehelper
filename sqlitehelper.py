@@ -18,6 +18,8 @@ class SQLHelper(object):
         self.c.execute("CREATE TABLE IF NOT EXISTS " + table_name+' '+query)
         self.conn.commit()
         print("created")
+
+    
     def select_all(self,table_name):
         data=self.c.execute("SELECT * FROM "+table_name)
         return data
