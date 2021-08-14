@@ -20,7 +20,7 @@ class SQLiteHelper(object):
         #print("created")
 
     
-    def select_all(self,table_name):
+    def selectAll(self,table_name):
         data=self.c.execute("SELECT * FROM "+table_name)
         return data
 

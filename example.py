@@ -29,5 +29,5 @@ db.insert('tasks',values)
 # after this line, you are now inserted your data in your table 
 
 # select all datas and display it via console like this
-for r in db.select_all(table_name='tasks'):
+for r in db.selectAll(table_name='tasks'):
     print(r)
