@@ -39,11 +39,13 @@ for r in db.select_all(table_name='tasks'):
     print(r)
 ```
 
-Uhmmm! easy right, that's all the features for now others comming soon ```
+Uhmmm! easy right, that's all the features for now others comming soon
 
 # Wait...
 Don't worry i'm updating this soon 😉
 
-# I need your help Contributions are welcomed feel free to create PR or issues
+# Contributions
+I need your help, feel free to create PR or issues
 
-# i need your star on this repo to keep adding more features 😉😉😉
+# Remember 
+I need your star on this repo to keep adding more features maybe MYSQL or Postgres too 😉😉😉
