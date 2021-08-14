@@ -7,8 +7,6 @@ I'm sure if you know to to import python module, that's all you need on this or 
 # import the module from helper folder
 from helper.sqlitehelper import SQLHelper
 
-
-
 # creating the database called todo_app using our SQLiteHeper module 
 db=SQLHelper('todo_app')
 # After this like the file todo_app.db will be created in your directory
@@ -39,7 +37,7 @@ db.insert('tasks',values)
 # select all datas and display it via console like this
 for r in db.select_all(table_name='tasks'):
     print(r)
-
+```
 
 Uhmmm! easy right, that's all the features for now others comming soon ```
 
