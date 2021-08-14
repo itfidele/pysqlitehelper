@@ -1,7 +1,7 @@
 import sqlite3
 
 
-class SQLHelper(object):
+class SQLiteHelper(object):
     def __init__(self,db_name,):
         self.db_name = db_name
         
@@ -14,10 +14,10 @@ class SQLHelper(object):
         for key, value in columns.items():
             query+=','+key+' '+value
         query+=')'
-        print(query)
+        #print(query)
         self.c.execute("CREATE TABLE IF NOT EXISTS " + table_name+' '+query)
         self.conn.commit()
-        print("created")
+        #print("created")
 
     
     def select_all(self,table_name):
@@ -35,7 +35,7 @@ class SQLHelper(object):
             query+=','+key
         query+=')'
         values_+=")"
-        print(values_)
+        #print(values_)
         self.c.execute("INSERT INTO "+table_name+query+"VALUES"+values_)
         self.conn.commit()
-        print("inserted")
+        #print("inserted")
