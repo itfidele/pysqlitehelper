@@ -41,11 +41,11 @@ for r in db.select_all(table_name='tasks'):
 
 Uhmmm! easy right, that's all the features for now others comming soon
 
-# Wait...
-Don't worry i'm updating this soon 😉
+# Wait... ⛔
+Still working on it, but don't worry i'm updating this soon or maybe you can help 😉
 
-# Contributions
+# Contributions 🆘
 I need your help, feel free to create PR or issues
 
-# Remember 
-I need your star on this repo to keep adding more features maybe MYSQL or Postgres too 😉😉😉
+# Remember 🌟
+I need your star ☆ on this repo to keep adding more features maybe MYSQL or Postgres too 😉😉😉
