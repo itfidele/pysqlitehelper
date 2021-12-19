@@ -34,7 +34,7 @@ values={
 
 # then to execute the insert method call this fuction and pass table name and it's value
 
-#db.insert('tasks',values)
+db.insert('tasks',values)
 # after this line, you are now inserted your data in your table 
 
 # select data by ID , here i'm going to select todo with id of 2
