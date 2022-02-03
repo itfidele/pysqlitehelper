@@ -3,7 +3,7 @@
 
 Python 💩💩 SQLiteHelper is a python package i created for my own needs, for repetition while accessing sqlite, it can help you to create database,tables accessing tables without needing any query 💩
 
-# Installation 💽
+# Example 💽
 I'm sure if you know to to import python module, that's all you need on this or visit this link to learn more <a href='https://www.geeksforgeeks.org/import-module-python/#:~:text=Import%20in%20python%20is%20similar,is%20not%20the%20only%20way.'>Here</a> 
 ```python
 # import the module from helper folder
@@ -46,14 +46,3 @@ print(todo)
 for r in db.selectAll(table_name='tasks'):
     print(r)
 ```
-
-Uhmmm! easy right, that's all the features for now others comming soon
-
-# Wait... ⛔
-Still working on it, but don't worry i'm updating this soon or maybe you can help 😉
-
-# Contributions 🆘
-I need your help, feel free to create PR or issues
-
-# Remember 🌟
-I need your star ☆ on this repo to keep adding more features maybe MYSQL or Postgres too 😉😉😉
