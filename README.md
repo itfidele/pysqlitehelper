@@ -1,7 +1,7 @@
 # PySQLite-Helper 🧤
 ![](https://img.shields.io/github/issues/fidele000/PySQLite-Helper)  ![](https://img.shields.io/github/forks/fidele000/PySQLite-Helper) [![GitHub stars](https://img.shields.io/github/stars/fidele000/PySQLite-Helper)](https://github.com/fidele000/PySQLite-Helper/stargazers)  [![GitHub license](https://img.shields.io/github/license/fidele000/PySQLite-Helper)](https://github.com/fidele000/PySQLite-Helper/blob/master/LICENSE)  
 
-Python 💩💩 SQLiteHelper is a python package i created for my own needs, for repetition while accessing sqlite, it can help you to create database,tables accessing tables without needing any query 💩
+Python SQLiteHelper is a python package i created for my own needs, for repetition while accessing sqlite, it can help you to create database,tables accessing tables without needing any query 
 
 # Example 💽
 I'm sure if you know to to import python module, that's all you need on this or visit this link to learn more <a href='https://www.geeksforgeeks.org/import-module-python/#:~:text=Import%20in%20python%20is%20similar,is%20not%20the%20only%20way.'>Here</a> 
