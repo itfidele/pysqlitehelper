@@ -3,10 +3,9 @@
 
 Python SQLiteHelper is a python package that help you to create sqlite databases,tables and interacting with sqlite database without have to worry about writing any SQL query.
 
-
 ```python
 # import the module from helper folder
-from helper.sqlitehelper import SQLiteHelper
+from pysqlitehelper.helpers import SQLiteHelper
 
 # creating the database called todo_app using our SQLiteHeper module 
 db=SQLiteHelper('todo_app')
