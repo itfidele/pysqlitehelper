@@ -1,11 +1,11 @@
 # PySQLite-Helper 🧤
-![](https://img.shields.io/github/issues/fidele000/PySQLite-Helper)  ![](https://img.shields.io/github/forks/fidele000/PySQLite-Helper) [![GitHub stars](https://img.shields.io/github/stars/fidele000/PySQLite-Helper)](https://github.com/fidele000/PySQLite-Helper/stargazers)  [![GitHub license](https://img.shields.io/github/license/fidele000/PySQLite-Helper)](https://github.com/fidele000/PySQLite-Helper/blob/master/LICENSE)  
+![](https://img.shields.io/github/issues/itfidele/pysqlitehelper)  ![](https://img.shields.io/github/forks/itfidele/pysqlitehelper) [![GitHub stars](https://img.shields.io/github/stars/itfidele/pysqlitehelper)](https://github.com/itfidele/pysqlitehelper/stargazers)  [![GitHub license](https://img.shields.io/github/license/fidele000/PySQLite-Helper)](https://github.com/itfidele/pysqlitehelper/blob/master/LICENSE)  
 
 Python SQLiteHelper is a python package that help you to create sqlite databases,tables and interacting with sqlite database without have to worry about writing any SQL query.
 
 ```python
 # import the module from helper folder
-from pysqlitehelper.helpers import SQLiteHelper
+from itfidele/itfidele/itfidele/pysqlitehelper.helpers import SQLiteHelper
 
 # creating the database called todo_app using our SQLiteHeper module 
 db=SQLiteHelper('todo_app')
