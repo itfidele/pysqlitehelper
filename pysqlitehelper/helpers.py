@@ -35,9 +35,8 @@ class SQLiteHelper(object):
         columns=self.getColumns(table_name)
         data={}
         
-        if len(columns) > 0:
-            for i in range(0,len(columns)):
-                data[columns[i]]=cursor[i]
+        for i in range(0,len(columns)):
+            data[columns[i]]=cursor[i]
         return data
 
     def insert(self,table_name,values)->bool:
