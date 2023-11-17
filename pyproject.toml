@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "pysqlitehelper"
-version = "0.1.0"
+version = "0.2.0"
 description = "Python SQLiteHelper is a python package that help you to create sqlite databases,tables and interacting with sqlite database without have to worry about writing any SQL query."
 authors = ["Fidele K <itfidele@gmail.com>"]
 license = "MIT"
