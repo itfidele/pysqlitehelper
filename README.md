@@ -27,7 +27,7 @@ db.create_table('tasks',columns)
 
 values={
     'title':'Coding in the morning',
-    'description':'Get up and code bro 😉',
+    'description':'Drinking coffee instead',
     'completed':False,
 }
 
