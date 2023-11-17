@@ -1,2 +1,160 @@
-__pycache__*
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Flask stuff
+instance/
+.webassets-cache
+
+# Scrapy stuff
+.scrapy
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+target/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+# Environments
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+pythonenv*
+.bin/
+envs/
+.sass-cache/
+logs/
+*.log
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# Tornado project settings
+.tornado-project
+
+# System-specific files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Python VS Code settings
+.vscode/
+
+# Visual Studio
+.vs
+
+# PyCharm
+.idea/
+
+# Sublime Text
+.sublime-project
+.sublime-workspace
+
+# SFTP configuration
+.sftp-config.json
+
+# Node.js
+node_modules/
+npm-debug.log*
+
+# TypeScript
+*.tsbuildinfo
+
+# Yarn
+yarn-error.log
+
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
+# Windows shortcuts
+Desktop.ini
+*.lnk
 *.db
+# JetBrains
+.idea/
+*.iml
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Thumbnails
+._*
+
+# Files that might appear on external disks
+.Spotlight-V100
+.Trashes
+
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
