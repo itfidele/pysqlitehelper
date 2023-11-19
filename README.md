@@ -3,6 +3,17 @@
 
 Python SQLiteHelper is a python package that help you to create sqlite databases,tables and interacting with sqlite database without have to worry about writing any SQL query.
 
+## Installation
+pip package manager
+```sh
+pip install pysqlitehelper
+```
+poetry package manager
+```sh
+poetry add pysqlitehelper
+```
+
+
 ```python
 # import the module from helper folder
 from pysqlitehelper.helpers import SQLiteHelper
@@ -36,8 +47,8 @@ db.insert('tasks',values)
 # after this line, you are now inserted your data in your table 
 
 # select data by ID , here i'm going to select todo with id of 2
-todo=db.selectWhereId('tasks',2)
-print(todo)
+# todo=db.selectWhereId('tasks',2)
+# print(todo)
 # you can display selected column like this print(todo['title'])
 
 # select all datas and display it via console like this
